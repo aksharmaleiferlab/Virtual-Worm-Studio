@@ -13,6 +13,34 @@ The anatomy was imported from **Chris Grove's Virtual Worm model, WormBase / Cal
 
 Version **1.5.0** includes the nested-tissue visibility fixes from the local Mac app, plus portable launchers and optional Blender configuration.
 
+
+## Start here after downloading
+
+Extract the full ZIP and open its **virtual-worm-studio** subfolder.
+The repository's outer folder contains this README and example figures;
+the actual app and launchers are in the subfolder.
+
+- **Windows:** install Python 3.10+, then double-click
+  [virtual-worm-studio/Start-Windows.cmd](virtual-worm-studio/Start-Windows.cmd).
+  Windows may display the filename as `Start-Windows` if extensions are hidden.
+- **Mac:** run `python3 virtual-worm-studio/launch.py` from the repository root,
+  or open `virtual-worm-studio/Start-Mac.command`.
+- **Linux:** run `python3 virtual-worm-studio/launch.py` from the repository root.
+
+A source download does **not** include `VirtualWormStudio.exe`. The build
+workflow creates standalone archives containing the executable and its support
+files. Run it through the repository's **Actions** tab, download the Windows
+artifact, and extract both ZIP layers before launching the executable.
+Published Releases, when available, are the easiest end-user download.
+Python is not required in a standalone build. Prepared anatomy is included in
+both source and standalone distributions; Blender remains optional.
+
+From PowerShell in the repository root, the direct source command is:
+
+```powershell
+py -3 virtual-worm-studio/launch.py
+```
+
 ## Contents
 
 - [What is included](#what-is-included)
@@ -68,10 +96,10 @@ Alternatively, clone the repository using its actual URL:
 
 ```sh
 git clone https://github.com/aksharmaleiferlab/Virtual-Worm-Studio.git
-cd virtual-worm-studio
+cd Virtual-Worm-Studio/virtual-worm-studio
 ```
 
-The commands below assume you are in the folder containing `launch.py`.
+The commands below assume you are in the nested `virtual-worm-studio` folder containing `launch.py`.
 
 ### 2a. macOS
 
@@ -343,7 +371,7 @@ Close the app before updating. Save your figures and JSON files, keep the origin
 
 ## GitHub publishing and standalone builds
 
-See [docs/MAINTAINERS.md](docs/MAINTAINERS.md) for exact repository-upload, CI, build, testing, release, and anatomy-regeneration instructions.
+See [docs/MAINTAINERS.md](virtual-worm-studio/docs/MAINTAINERS.md) for exact repository-upload, CI, build, testing, release, and anatomy-regeneration instructions.
 
 To run backend checks from the repository root:
 
@@ -386,4 +414,4 @@ Suggested figure credit (adapt to your publication's style):
 
 This is a suggested attribution, not a fabricated journal reference or DOI. Preserve model attribution when sharing figures or derived geometry. Include any additional credits required by your venue.
 
-Application code: [MIT license](LICENSE). Vendored Three.js: MIT, original notice in [web/vendor/THREE-LICENSE.txt](web/vendor/THREE-LICENSE.txt). Prepared anatomy source and third-party details: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Blender is separately downloaded software under its own GPL terms and is not bundled in this repository or its build workflow.
+Application code: [MIT license](virtual-worm-studio/LICENSE). Vendored Three.js: MIT, original notice in [web/vendor/THREE-LICENSE.txt](virtual-worm-studio/web/vendor/THREE-LICENSE.txt). Prepared anatomy source and third-party details: [THIRD_PARTY_NOTICES.md](virtual-worm-studio/THIRD_PARTY_NOTICES.md). Blender is separately downloaded software under its own GPL terms and is not bundled in this repository or its build workflow.
