@@ -67,11 +67,11 @@ Download the source ZIP (or use GitHub **Code → Download ZIP** after this repo
 Alternatively, clone the repository using its actual URL:
 
 ```sh
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/aksharmaleiferlab/Virtual-Worm-Studio.git
 cd virtual-worm-studio
 ```
 
-Replace `YOUR_REPOSITORY_URL` with your GitHub repository URL. The commands below assume you are in the folder containing `launch.py`.
+The commands below assume you are in the folder containing `launch.py`.
 
 ### 2a. macOS
 
