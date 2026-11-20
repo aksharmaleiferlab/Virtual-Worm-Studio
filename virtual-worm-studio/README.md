@@ -1,12 +1,15 @@
-# Virtual Worm Studio
+# Virtual-Worm-Studio
 
 An offline graphical tool for making **C. elegans anatomical illustrations** for talks, articles, posters, and presentations. Select cells and tissues by name, keep their original spatial arrangement, change their colors, mix filled organs with hollow tissue outlines, add a calibrated scale bar, and export your figure.
 
 **Prepared anatomy is included. Downloading the original `.blend` file is optional.** You can use the viewer and export PNG, GLB, CSV, and saved views without installing Blender or downloading another model.
 
+This is a very useful tool for those who are not familiar with blender {https://www.blender.org} tools but want to use beautiful worm illustration/s for presentation, talk, article, book chapter or social media post. Examples: 
+<img src="Example_nervous system.png" alt="Nervous System" width="100"> <img src="Example_gentle touch circuit.png" alt="Gentle Touch Circuit" width="130">
+
 The anatomy was imported from **Chris Grove's Virtual Worm model, WormBase / California Institute of Technology**. See [Anatomy source and citation](#anatomy-source-and-citation). This is an independent illustration interface, not an official WormBase or Caltech application.
 
-![Cuticle outline with visible, colored intestine and pharynx](docs/screenshot.jpg)
+![Cuticle outline with visible, colored intestine and pharynx](package-preview.jpg)
 
 Version **1.5.0** includes the nested-tissue visibility fixes from the local Mac app, plus portable launchers and optional Blender configuration.
 
