@@ -1,0 +1,13 @@
+{
+  "source": "Virtual_Worm_February_2012.blend",
+  "geometry": {
+    "sha256": "d4ab8b98e985795a0776f7060f6383c646c9df0db572f26cfec9980f16b86b07",
+    "bytes": 59231940,
+    "compressed_sha256": "a0ff9b47916128aae0046cb5b8a603402dad7ca6353936c94d77a9fabff8fe07",
+    "parts": [
+      "assets/model.bin.gz.part01",
+      "assets/model.bin.gz.part02"
+    ]
+  },
+  "original_blend_sha256": "510e9234b65c3890896bf7c0f8b734b219070a97dc68b248596d6f8c8ceb8fea"
+}

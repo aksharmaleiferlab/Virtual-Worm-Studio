@@ -1,0 +1,2 @@
+export function parseNames(text){return [...new Set(text.split(/[,;:\s]+/).map(s=>s.trim()).filter(Boolean))];}
+export function matchNames(text, objects){const lookup=new Map(objects.map(o=>[o.name.toLowerCase(),o.name]));const found=[],missing=[];for(const token of parseNames(text)){const n=lookup.get(token.toLowerCase());if(n)found.push(n);else missing.push(token);}return {found:[...new Set(found)],missing};}

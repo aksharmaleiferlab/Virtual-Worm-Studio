@@ -1,0 +1,2 @@
+# Only for building standalone downloads; running from source needs no pip packages.
+pyinstaller>=6.11.1,<7
