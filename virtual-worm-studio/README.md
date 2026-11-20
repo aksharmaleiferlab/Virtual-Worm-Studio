@@ -9,7 +9,7 @@ This is a very useful tool for those who are not familiar with blender {https://
 
 The anatomy was imported from **Chris Grove's Virtual Worm model, WormBase / California Institute of Technology**. See [Anatomy source and citation](#anatomy-source-and-citation). This is an independent illustration interface, not an official WormBase or Caltech application.
 
-![Cuticle outline with visible, colored intestine and pharynx](package-preview.jpg)
+![Cuticle outline with visible, colored intestine and pharynx](docs/screenshot.jpg)
 
 Version **1.5.0** includes the nested-tissue visibility fixes from the local Mac app, plus portable launchers and optional Blender configuration.
 
@@ -68,7 +68,7 @@ Alternatively, clone the repository using its actual URL:
 
 ```sh
 git clone YOUR_REPOSITORY_URL
-cd virtual-worm-studio
+cd Virtual-Worm-Studio/virtual-worm-studio
 ```
 
 Replace `YOUR_REPOSITORY_URL` with your GitHub repository URL. The commands below assume you are in the folder containing `launch.py`.
@@ -313,7 +313,6 @@ virtual-worm-studio/
   prepare_model.py                   Developer-only anatomy preprocessing
   scripts/build.py                  Build standalone folder archives
   tests/                            Backend/export/metadata tests
-  .github/workflows/build.yml        Three-OS CI and builds
   docs/                             Screenshots and maintainer instructions
   settings.json                     Created locally; ignored by Git
   cache/model.bin                   Created locally; ignored by Git
