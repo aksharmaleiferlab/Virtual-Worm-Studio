@@ -4,6 +4,8 @@ An offline graphical tool for making **C. elegans anatomical illustrations** for
 
 **Prepared anatomy is included. Downloading the original `.blend` file is optional.** You can use the viewer and export PNG, GLB, CSV, and saved views without installing Blender or downloading another model.
 
+This is a very useful tool for those who are not familiar with blender {https://www.blender.org} tools but want to use beautiful worm illustration for presentations, talks, article, book chapter or social media posts. 
+
 The anatomy was imported from **Chris Grove's Virtual Worm model, WormBase / California Institute of Technology**. See [Anatomy source and citation](#anatomy-source-and-citation). This is an independent illustration interface, not an official WormBase or Caltech application.
 
 ![Cuticle outline with visible, colored intestine and pharynx](package-preview.jpg)
