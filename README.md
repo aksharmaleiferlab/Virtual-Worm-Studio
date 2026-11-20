@@ -6,7 +6,7 @@ An offline graphical tool for making **C. elegans anatomical illustrations** for
 
 The anatomy was imported from **Chris Grove's Virtual Worm model, WormBase / California Institute of Technology**. See [Anatomy source and citation](#anatomy-source-and-citation). This is an independent illustration interface, not an official WormBase or Caltech application.
 
-![Cuticle outline with visible, colored intestine and pharynx](docs/screenshot.jpg)
+![Cuticle outline with visible, colored intestine and pharynx](package-preview.jpg)
 
 Version **1.5.0** includes the nested-tissue visibility fixes from the local Mac app, plus portable launchers and optional Blender configuration.
 
