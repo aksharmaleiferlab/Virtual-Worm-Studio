@@ -1,4 +1,4 @@
-# Virtual-Worm-Studio
+# Virtual-Worm-Studio (create beautiful worm images, inspired from Virtual Worm)
 
 An offline graphical tool for making **C. elegans anatomical illustrations** for talks, articles, posters, and presentations. Select cells and tissues by name, keep their original spatial arrangement, change their colors, mix filled organs with hollow tissue outlines, add a calibrated scale bar, and export your figure.
 
@@ -14,7 +14,7 @@ The anatomy was imported from **Chris Grove's Virtual Worm model, WormBase / Cal
 Version **1.5.0** includes the nested-tissue visibility fixes from the local Mac app, plus portable launchers and optional Blender configuration.
 
 
-## Start here after downloading
+## Start here after downloading (you need not to install whole package (option), this is tested and work fine on different OS) 
 
 Extract the full ZIP and open its **virtual-worm-studio** subfolder.
 The repository's outer folder contains this README and example figures;
@@ -40,6 +40,7 @@ From PowerShell in the repository root, the direct source command is:
 ```powershell
 py -3 virtual-worm-studio/launch.py
 ```
+## If you find a bug or unable to use, let me know!
 
 ## Contents
 
