@@ -416,4 +416,5 @@ Suggested figure credit (adapt to your publication's style):
 This is a suggested attribution, not a fabricated journal reference or DOI. Preserve model attribution when sharing figures or derived geometry. Include any additional credits required by your venue.
 
 Application code: [MIT license](virtual-worm-studio/LICENSE). Vendored Three.js: MIT, original notice in [web/vendor/THREE-LICENSE.txt](virtual-worm-studio/web/vendor/THREE-LICENSE.txt). Prepared anatomy source and third-party details: [THIRD_PARTY_NOTICES.md](virtual-worm-studio/THIRD_PARTY_NOTICES.md). Blender is separately downloaded software under its own GPL terms and is not bundled in this repository or its build workflow.
+
 **Disclaimer: This tools was developed with the help of Codex (ChatGPT) help.** 
